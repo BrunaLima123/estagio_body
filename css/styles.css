@@ -1,0 +1,1007 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    background-image:  linear-gradient(to right, #aaa9a1, #dbdbd6, #aaa9a1 );
+
+}
+
+header{ 
+   background-image:url('../fundo_body.jpeg');
+   background-size: cover;
+   background-position: center;
+   min-height: 690px;
+}
+
+.logo{
+    display: flex;
+
+}
+.img-logo{
+    width: 270px;
+    margin-top: -170px;
+    margin-left: -30px;
+  
+    
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 75px;
+    background-color: #3333338e;
+    margin-left: 200px;
+    justify-content: space-around;
+    
+}
+
+.active-menu{
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+}
+.active-menu:hover{
+    color: #daa520d3;
+
+}
+.main-nav .close-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu{
+    width: 50px;
+}
+.main-nav:not(:target) {
+    opacity: 0;
+    pointer-events: none;
+}
+.main-nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.button-oval, .main-nav, a.ball {
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+.main-nav:not(:target) ul {
+    transform: translateX(100%);
+    opacity: 0;
+}
+.main-nav ul {
+    background-color: #fff;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 99;
+    transition-property: opacity,transform;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+    padding: 50px 25px;
+}
+ol, ul {
+    list-style: none;
+}
+
+.main-nav ul li.close-row {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.main-nav ul li, .mb-5 {
+    margin-bottom: 30px;
+}
+
+ol, ul {
+    list-style: none;
+}
+.main-nav ul li.close-row a {
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.main-nav ul a {
+    color: #8085A1;
+    text-decoration: none;
+}
+.main-nav ul a:hover {
+    color:#daa520d3;
+
+}
+.main-nav ul a, .tag-toggle ul li button {
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+.main-nav ul a, .text-6 {
+    font-size: 25px;
+}
+.main-nav ul img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main-nav ul li.close-row a:hover {
+    background: 0 0;
+}
+
+.main-nav ul li.close-row a {
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.main-nav ul li.close-row a:hover img {
+    transform: scale(1.15);
+}
+
+.main-nav ul img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+:focus, :hover {
+    outline: 0;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.titulo-body{
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+    -1px 0px 0px #daa520d3, 
+    -1px 0px 0px #daa520d3,                    
+     1px 0px 0px #daa520d3,                  
+     1px 0px 0px #daa520d3;
+
+}
+.cidade-apresentacao{
+    display: flex;
+
+}
+.cidade{
+    background-color: #daa520d3;
+    font-size: 35px;
+    margin-top:100px;
+    border-radius: 50px;
+    width: 30%;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+}
+.locationCidade{
+    width: 30px;
+    height: 30px;
+}
+.planos{
+    display: flex;
+    
+
+}
+.planos-text{
+    color: white;
+    margin-top: 100px;
+    background: #daa520d3;
+    margin-left: 1000px;
+    border-radius: 50%;
+    height: 120px;
+    width: 18%;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    
+   
+
+}
+.mainContainer{
+    display: flex;
+}
+#mapa{
+    width: 50%;
+}
+.endereco{
+    text-align: center;
+       color: #8085A1;
+       margin-bottom: 10px;
+    }
+
+.titulo-principal{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333333;
+    text-shadow: 
+    -1px 0px 0px #daa520d3, 
+    -1px 0px 0px #daa520d3,                    
+     1px 0px 0px #daa520d3,                  
+     1px 0px 0px #daa520d3;
+    font-size: 22px;
+  }
+.locationMapa{
+    width: 20px;
+    height: 14px;
+}
+
+.horario-atendimento{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center; 
+
+}
+.relogio{
+    width: 20px;
+    height: 20px;
+}
+.titulo-horario{
+    font-size: 23px;
+    color:  #333333;
+    text-shadow: 
+    -1px 0px 0px #daa520d3, 
+    -1px 0px 0px #daa520d3,                    
+     1px 0px 0px #daa520d3,                  
+     1px 0px 0px #daa520d3;
+    
+}
+.text-relogio{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-shadow: 
+    -1px 0px 0px white, 
+    -1px 0px 0px white,                    
+     1px 0px 0px white,                  
+     1px 0px 0px white;
+}
+.text-hora{
+    background-color: #daa520d3;
+    
+    
+
+}
+
+
+#produtos{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0 ;
+    text-align: center;
+   
+
+   
+
+}
+.titulo-planos{
+    font-size: 22px;
+    color:#333333;
+    text-shadow: 
+    -1px 0px 0px #daa520d3, 
+    -1px 0px 0px #daa520d3,                    
+     1px 0px 0px #daa520d3,                  
+     1px 0px 0px #daa520d3;
+}
+.conteudoPrincipal-planos{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.conteudoPrincipal-planos-text {
+	height: 300px;
+    width: 300px;
+    color: #333333;
+    background-color: #dba724cc;
+    font-size: 25px;
+	text-align: center;
+    align-items: center;
+	margin: 1%;
+	box-shadow: 7px 3px 8px   #757373;  
+}
+.valor{
+    font-weight: bold;
+    color:#333333;
+  
+
+}
+.conteudoPrincipal-planos-titulo{
+    font-size: 20px;
+    color:#333333;
+    margin-top: 30px;
+
+    
+    
+}
+
+ 
+.boxe{
+    display: flex;
+
+    
+}
+.text-box{
+    width: 50%;
+    color: #333333;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    backdrop-filter: brightness(90%);
+ 
+}
+
+.planos-luta-titulo{
+    margin-top: 30px;
+    color:#333333;
+    text-shadow: 
+    -1px 0px 0px white, 
+    -1px 0px 0px white,                    
+     1px 0px 0px white,                  
+     1px 0px 0px white;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.valor-luta{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.professor-luta{
+    margin-top: 20px;
+    color: #c29722c5;
+    font-weight: bold;
+    font-size: 25px;
+}
+.diferencial{
+    margin-top: 60px;
+    color:#333333;
+    text-shadow: 
+    -1px 0px 0px white, 
+    -1px 0px 0px white,                    
+     1px 0px 0px white,                  
+     1px 0px 0px white;
+    
+
+}
+.aulas{
+    margin-top: 20px;
+}
+.img-box{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 8px 5px 15px 5px #333333;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../box.jpeg');
+
+}
+footer{
+    height: 150px;
+    margin-top: 20px;
+
+
+
+}
+
+.titulo-footer{
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: #333333;
+    text-shadow: 
+    -1px 0px 0px #daa520d3, 
+    -1px 0px 0px #daa520d3,                    
+     1px 0px 0px #daa520d3,                  
+     1px 0px 0px #daa520d3
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+.a-facebook{
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../facebook.png');
+}
+
+.a-whatsapp{
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../whatsapp.png');
+}
+.a-instagram{
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../instagram.png');
+
+}
+
+
+
+span{
+    justify-content: center;
+    font-size: 18px;
+}
+
+    @media (min-width: 2560px) and (max-width:2560px){
+        header{
+            min-height: 1000px;
+        }
+        .img-logo{
+            width: 400px;
+            margin-top: -250px;
+            margin-left: -40px;
+        }
+        .menu-container{
+            height: 110px;
+        }
+        .menu{
+            width: 90px;
+        }
+        .active-menu{
+            font-size: 30px;
+        }
+        .titulo-body{
+            font-size: 50px;
+            margin-top: -30px;
+        }
+        .cidade{
+            font-size: 45px;
+            
+        }
+        .planos-text{
+            width: 30%;
+            font-size: 35px;
+            height: 200px;
+            margin-top: 190px;
+            margin-left: 1600px;
+        }
+        .titulo-principal{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .endereco{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .titulo-horario{
+            font-size: 40px;
+            margin-bottom: 30px;
+
+        }
+        .text-relogio{
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        .text-hora{
+    
+            font-size: 30px;
+        }
+        .relogio{
+            width: 40px;
+            height: 40px;
+        }
+        .titulo-planos{
+            font-size: 40px;
+        }
+        .conteudoPrincipal-planos-text{
+            height: 400px;
+            width: 500px;
+
+        }
+        .conteudoPrincipal-planos-titulo{
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+        .valor{
+            font-size: 30px;
+        }
+        .diferencial{
+            font-size: 50px;
+            margin-top: 300px;
+        }
+        .aulas{
+            font-size: 35px;
+            margin-top: 100px;
+        }
+        .professor-luta{
+            font-size: 50px;
+            margin-top: 100px;
+        }
+        .planos-luta-titulo{
+            font-size: 50px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .valor-luta{
+            font-size: 40px;
+           
+        }
+        footer{
+            height: 300px;
+        }
+        .titulo-footer{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+        .a-facebook{
+            width: 80px;
+            height: 80px;
+        }
+        .a-instagram{
+            width: 80px;
+            height: 80px;
+        }
+        .a-whatsapp{
+            width: 80px;
+            height: 80px;
+        }
+        span{
+            font-size: 40px;
+        }
+
+        }
+
+
+      @media (min-width: 1440px) and (max-width:1440px){
+        header{
+            min-height: 720px;
+        }
+        .img-logo{
+            width: 300px;
+            margin-top: -180px;
+        }
+        .active-menu{
+            font-size: 25px;
+        }
+        .apresentacao{
+            margin-top: -15px;
+        }
+        .titulo-body{
+            font-size: 45px;
+        }
+        .cidade{
+            font-size: 40px;
+        }
+        .planos-text{
+            font-size: 20px;
+            width: 20%;
+            margin-left: 1100px;
+        }
+        .titulo-principal{
+            font-size: 32px;
+        }
+        .endereco{
+            margin-top: 15px;
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+        .titulo-horario{
+            font-size: 32px;
+        }
+        .text-relogio{
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .text-hora{
+            font-size: 20px;
+        }
+        .titulo-planos{
+            font-size: 32px;
+        }
+        .conteudoPrincipal-planos-titulo {
+            font-size: 25px;
+        }
+        .diferencial{
+            margin-top: 100px;
+            font-size: 40px;
+
+        }
+        .aulas{
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        .professor-luta{
+            margin-top:50px;
+            font-size: 30px;
+        }
+        .planos-luta-titulo{
+            font-size: 35px;
+            margin-top: 60px;
+        }
+        .valor-luta{
+            font-size: 30px;
+           
+        }
+        footer{
+            height: 200px;
+        }
+        .titulo-footer{
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+      
+      span{
+        font-size: 28px;
+      }
+    }
+
+      @media (min-width: 700px){
+        .main-nav {
+            display: flex;
+            justify-content: flex-end;
+        
+        }
+        .main-nav ul li.close-row {
+            position: static;
+            margin-left: -60px;
+        }
+        .main-nav ul {
+            padding: 40px 100px 133px;
+            min-width: 330px;
+        }
+        }
+    @media (min-width: 1024px) and (max-width:1024px){
+       
+            .titulo-body{
+                font-size: 35px;
+            }
+            .cidade{
+                width: 40%;
+            }
+            .planos-text {
+                margin-left: 700px;
+                width: 30%;
+                height: 120px;
+            } 
+    
+          }
+    
+    @media (min-width: 768px) and (max-width:1023px){   
+        header{ 
+            background-image:url('../fundo_body.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 500px;
+            
+         
+         }
+     
+         .img-logo{
+            width: 200px;
+            margin-top: -120px;
+            margin-left: -20px;
+        
+        }
+        .menu-container{
+            max-width: 100%;
+            height: 50px;
+            background-color: #3333338e;
+            margin-left: 150px;
+            justify-content: space-around;
+            
+        }
+            
+        .active-menu{
+            font-size: 15px;
+         
+         }
+        .apresentacao{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .titulo-body{
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            text-shadow: 
+            -1px 0px 0px #daa520d3, 
+            -1px 0px 0px #daa520d3,                    
+             1px 0px 0px #daa520d3,                  
+             1px 0px 0px #daa520d3;
+    
+        
+        }
+        .cidade{
+            background-color: #daa520d3;
+            font-size: 20px;
+            margin-top: 80px;
+            width: 30%;
+            margin-left: 30px;
+        }
+        .locationCidade{
+            width: 20px;
+            height: 20px;
+            
+        }
+    
+        .planos-text{
+            font-size: 13px;
+            margin-top: 90px;
+            width: 25%;
+            margin-left: 530px;
+            height: 70px;
+            text-align: center;
+        }
+    
+        .titulo-principal{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          .endereco{
+            font-size: 15px;
+            margin-bottom: 10px;
+          }
+          .titulo-horario{
+            font-size: 18px;
+          }
+          .text-relogio{
+            font-size: 15px;
+          }
+          .titulo-planos{
+            font-size: 18px;
+          }
+          .conteudoPrincipal-planos-text{
+                height: 200px;
+            }
+    
+          .diferencial{
+            font-size: 20px;
+            margin-top: 20px;
+          }
+          .aulas{
+            margin-top: 10px;
+            font-size: 15px;
+          }
+          .professor-luta{
+            margin-top: 20px;
+            font-size: 19px;
+          }
+          .planos-luta-titulo{
+            font-size: 20px;
+            margin-top: 50px;
+          }
+          .valor-luta{
+            font-size: 20px;
+          }
+          .titulo-footer{
+            font-size: 18px;
+          }
+          .a-facebook{
+            height: 40px;
+            width: 40px;
+          }
+          .a-whatsapp{
+            height: 40px;
+            width: 40px;
+          }
+          .a-instagram{
+            height: 40px;
+            width: 40px;
+          }
+          span{
+            font-size: 18px;
+          }
+    
+    
+        }
+    
+      @media (min-width: 320px) and (max-width:425px){
+        header{ 
+            height: 130px; 
+            background-image:url('../fundo_body.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 350px;
+            
+         
+         }
+     
+         .img-logo{
+            width: 150px;
+            margin-top: -105px;
+            margin-left: -15px;
+        }
+        .menu-container{
+            max-width: 100%;
+            height: 50px;
+            background-color: #3333338e;
+            margin-left: 250px;
+            justify-content: space-around;
+            
+        }
+        .main-nav ul a, .text-6 {
+            font-size: 20px;
+        }
+            
+        .active-menu{
+            display: none;
+         }
+        .apresentacao{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .titulo-body{
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            text-shadow: 
+            -1px 0px 0px #daa520d3, 
+            -1px 0px 0px #daa520d3,                    
+             1px 0px 0px #daa520d3,                  
+             1px 0px 0px #daa520d3;
+    
+        
+        }
+        .cidade-apresentacao{
+            justify-content: center;
+        }
+        .cidade{
+            background-color: #daa520d3;
+            font-size: 18px;
+            margin-top: 40px;
+            width: 70%;
+            margin-left: 0;
+        }
+        .locationCidade{
+            width: 20px;
+            height: 20px;
+            
+        }
+        .planos{
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        
+        
+        }
+        .planos-text{
+            font-size: 13px;
+            margin-left: 0;
+            margin-top: 10px;
+            width: 60%;
+            height: 70px;
+            text-align: center;
+            
+        }
+        .mainContainer{
+            flex-direction: column;
+    
+        }
+        #mapa{
+            width: 100%;
+        }
+        .horario-atendimento{
+            width: 100%;
+        }
+    
+        .titulo-principal{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          .endereco{
+            font-size: 15px;
+            margin-bottom: 10px;
+          }
+          .titulo-horario{
+            font-size: 18px;
+          }
+          .text-relogio{
+            font-size: 15px;
+          }
+          .titulo-planos{
+            font-size: 18px;
+          }
+          .conteudoPrincipal-planos-text{
+            height: 200px;
+          }
+          .img-box{
+           display: none;
+          }
+          .text-box{
+            width: 100%;
+          }
+          .diferencial{
+            font-size: 20px;
+            margin-top: 20px;
+          }
+          .aulas{
+            margin-top: 10px;
+            font-size: 15px;
+          }
+          .professor-luta{
+            margin-top: 20px;
+            font-size: 19px;
+          }
+          .planos-luta-titulo{
+            font-size: 20px;
+            margin-top: 50px;
+          }
+          .valor-luta{
+            font-size: 20px;
+          }
+          .titulo-footer{
+            font-size: 18px;
+          }
+          .a-facebook{
+            height: 35px;
+            width: 35px;
+          }
+          .a-whatsapp{
+            height: 35px;
+            width: 35px;
+          }
+          .a-instagram{
+            height: 35px;
+            width: 35px;
+          }
+          span{
+            font-size: 13px;
+          }
+    
+    
+    
+    }
+
