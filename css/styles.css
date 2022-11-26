@@ -13,7 +13,7 @@ body{
 }
 
 header{ 
-   background-image:url('../fundo_body.jpeg');
+   background-image:url('../imagens/fundo_body.jpeg');
    background-size: cover;
    background-position: center;
    min-height: 690px;
@@ -420,7 +420,7 @@ img {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image:url('../box.jpeg');
+    background-image:url('../imagens/box.jpeg');
 
 }
 footer{
@@ -452,7 +452,7 @@ footer{
     height: 45px;
     background-size: cover;
     background-position: center;
-    background-image:url('../facebook.png');
+    background-image:url('../imagens/facebook.png');
 }
 
 .a-whatsapp{
@@ -460,14 +460,14 @@ footer{
     height: 45px;
     background-size: cover;
     background-position: center;
-    background-image:url('../whatsapp.png');
+    background-image:url('../imagens/whatsapp.png');
 }
 .a-instagram{
     width: 45px;
     height: 45px;
     background-size: cover;
     background-position: center;
-    background-image:url('../instagram.png');
+    background-image:url('../imagens/instagram.png');
 
 }
 
