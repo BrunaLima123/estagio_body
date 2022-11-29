@@ -851,12 +851,7 @@ span{
       @media (min-width: 320px) and (max-width:425px){
         header{ 
             height: 130px; 
-            background-image:url('../imagens/fundo_body.jpeg');
-            background-size: cover;
-            background-position: center;
             min-height: 350px;
-            
-         
          }
      
          .img-logo{
