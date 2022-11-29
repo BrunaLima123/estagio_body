@@ -8,7 +8,7 @@ body{
 }
 
 .main{
-    background-image:  linear-gradient(to right, #aaa9a1, #dbdbd6, #aaa9a1 );
+    background-color: white;
 
 }
 
@@ -248,12 +248,8 @@ img {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-    color: #333333;
-    text-shadow: 
-    -1px 0px 0px #daa520d3, 
-    -1px 0px 0px #daa520d3,                    
-     1px 0px 0px #daa520d3,                  
-     1px 0px 0px #daa520d3;
+    color: #daa520d3;
+   
     font-size: 22px;
   }
 .locationMapa{
@@ -273,12 +269,8 @@ img {
 }
 .titulo-horario{
     font-size: 23px;
-    color:  #333333;
-    text-shadow: 
-    -1px 0px 0px #daa520d3, 
-    -1px 0px 0px #daa520d3,                    
-     1px 0px 0px #daa520d3,                  
-     1px 0px 0px #daa520d3;
+    color:  #daa520d3;
+   
     
 }
 .text-relogio{
@@ -313,12 +305,8 @@ img {
 }
 .titulo-planos{
     font-size: 22px;
-    color:#333333;
-    text-shadow: 
-    -1px 0px 0px #daa520d3, 
-    -1px 0px 0px #daa520d3,                    
-     1px 0px 0px #daa520d3,                  
-     1px 0px 0px #daa520d3;
+    color:#daa520d3;
+   
 }
 .conteudoPrincipal-planos{
     display: flex;
@@ -332,7 +320,7 @@ img {
 	height: 300px;
     width: 300px;
     color: #333333;
-    background-color: #b78807c5;
+    background-color: #d3a527c5;
     font-size: 25px;
 	text-align: center;
     align-items: center;
@@ -435,12 +423,8 @@ footer{
     text-align: center;
     margin-bottom: 35px;
     font-weight: bold;
-    color: #333333;
-    text-shadow: 
-    -1px 0px 0px #daa520d3, 
-    -1px 0px 0px #daa520d3,                    
-     1px 0px 0px #daa520d3,                  
-     1px 0px 0px #daa520d3
+    color: #daa520d3;
+   
 }
 
 .redes{
@@ -752,11 +736,6 @@ span{
             font-size: 20px;
             text-align: center;
             color: white;
-            text-shadow: 
-            -1px 0px 0px #daa520d3, 
-            -1px 0px 0px #daa520d3,                    
-             1px 0px 0px #daa520d3,                  
-             1px 0px 0px #daa520d3;
     
         
         }
@@ -883,14 +862,6 @@ span{
             .titulo-body{
                 font-size: 20px;
                 text-align: center;
-                color: white;
-                text-shadow: 
-                -1px 0px 0px #daa520d3, 
-                -1px 0px 0px #daa520d3,                    
-                 1px 0px 0px #daa520d3,                  
-                 1px 0px 0px #daa520d3;
-        
-            
             }
             .cidade-apresentacao{
                 justify-content: center;
@@ -1041,12 +1012,6 @@ span{
         .titulo-body{
             font-size: 20px;
             text-align: center;
-            color: white;
-            text-shadow: 
-            -1px 0px 0px #daa520d3, 
-            -1px 0px 0px #daa520d3,                    
-             1px 0px 0px #daa520d3,                  
-             1px 0px 0px #daa520d3;
     
         
         }
