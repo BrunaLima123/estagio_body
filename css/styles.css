@@ -24,7 +24,7 @@ header{
 
 }
 .img-logo{
-    width: 270px;
+    width: 261px;
     margin-top: -170px;
     margin-left: -30px;
   
@@ -190,11 +190,8 @@ img {
 .titulo-body{
     font-size: 40px;
     color: white;
-    text-shadow: 
-    -1px 0px 0px #daa520d3, 
-    -1px 0px 0px #daa520d3,                    
-     1px 0px 0px #daa520d3,                  
-     1px 0px 0px #daa520d3;
+    background-color: #daa520d3;
+  
 
 }
 .cidade-apresentacao{
@@ -204,7 +201,7 @@ img {
 .cidade{
     background-color: #daa520d3;
     font-size: 35px;
-    margin-top:100px;
+    margin-top:180px;
     border-radius: 50px;
     width: 30%;
     color: white;
@@ -222,9 +219,9 @@ img {
 }
 .planos-text{
     color: white;
-    margin-top: 100px;
+    margin-top: 80px;
     background: #daa520d3;
-    margin-left: 1000px;
+    margin-left: 1020px;
     border-radius: 50%;
     height: 120px;
     width: 18%;
@@ -335,7 +332,7 @@ img {
 	height: 300px;
     width: 300px;
     color: #333333;
-    background-color: #dba724cc;
+    background-color: #b78807c5;
     font-size: 25px;
 	text-align: center;
     align-items: center;
@@ -344,7 +341,10 @@ img {
 }
 .valor{
     font-weight: bold;
+    margin-top: 30px;
+    font-size: 27px;
     color:#333333;
+    font-family: 'Quantico', sans-serif;
   
 
 }
@@ -375,7 +375,7 @@ img {
 }
 
 .planos-luta-titulo{
-    margin-top: 30px;
+    margin-top: 50px;
     color:#333333;
     text-shadow: 
     -1px 0px 0px white, 
@@ -389,13 +389,13 @@ img {
 .valor-luta{
     font-weight: bold;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
 .professor-luta{
-    margin-top: 20px;
-    color: #c29722c5;
+    margin-top: 50px;
+    color: #b78807c5;
     font-weight: bold;
     font-size: 25px;
 }
@@ -483,7 +483,7 @@ span{
             min-height: 1000px;
         }
         .img-logo{
-            width: 400px;
+            width: 380px;
             margin-top: -250px;
             margin-left: -40px;
         }
@@ -603,7 +603,7 @@ span{
             min-height: 720px;
         }
         .img-logo{
-            width: 300px;
+            width: 276px;
             margin-top: -180px;
         }
         .active-menu{
@@ -715,7 +715,7 @@ span{
     
     @media (min-width: 768px) and (max-width:1023px){   
         header{ 
-            background-image:url('../fundo_body.jpeg');
+            background-image:url('../imagens/fundo_body.jpeg');
             background-size: cover;
             background-position: center;
             min-height: 500px;
@@ -724,7 +724,7 @@ span{
          }
      
          .img-logo{
-            width: 200px;
+            width: 189px;
             margin-top: -120px;
             margin-left: -20px;
         
@@ -803,6 +803,9 @@ span{
           .conteudoPrincipal-planos-text{
                 height: 200px;
             }
+            .valor{
+                margin-top: 0;
+              } 
     
           .diferencial{
             font-size: 20px;
@@ -848,7 +851,7 @@ span{
       @media (min-width: 320px) and (max-width:425px){
         header{ 
             height: 130px; 
-            background-image:url('../fundo_body.jpeg');
+            background-image:url('../imagens/fundo_body.jpeg');
             background-size: cover;
             background-position: center;
             min-height: 350px;
@@ -956,6 +959,9 @@ span{
           }
           .conteudoPrincipal-planos-text{
             height: 200px;
+          }
+          .valor{
+            margin-top: 0;
           }
           .img-box{
            display: none;
